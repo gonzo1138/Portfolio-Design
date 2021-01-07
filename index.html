@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" href="css/console.css">
+		<script language="JavaScript" type="text/javascript" src="./js/script.js"></script>
+		<script language="JavaScript" type="text/javascript" src="./js/console.js"></script>
+		<title>Portfolio-Design</title>
+	</head>
+
+	<body>
+		<div id="display">
+
+			<header id="head">
+				<div id="headercontent"></div>
+			</header>
+
+			<div id="content">
+
+			</div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="#"><p id="-start" class="navlink">Startseite</p></a></li>
+					<li><a href="#"><p id="-about" class="navlink">Über mich</p></a></li>
+					<li><a href="#"><p id="-projects" class="navlink">Projekte</p></a></li>
+					<li><a href="#"><p id="-hobbies" class="navlink">Hobbies</p></a></li>
+					<li><a href="#"><p id="-contact" class="navlink">Kontakt</p></a></li>
+					<li><a href="#"><p id="-impressum" class="navlink">Impressum</p></a></li>
+				</ul>
+			</nav>
+
+			<footer>
+				<div id="info">
+					<p>
+						Press <kbd>^</kbd> for <a href="#" id="terminalAccess">[Terminal-Access]</a>.<br>
+						Of course there are no Cookies around here...
+					</p>
+					<div id="infoclose" class="windowbutton">X</div>
+				</div>
+			</footer>
+
+		</div>
+
+		<!-- Javascript-Console: -->
+		<div id="consoleposition">
+			<div id="consolegrafic">
+				<div id="consoleframe">
+					<div id="console" class="consoleparts">
+						<!-- place to copy nodes to (child of #console) -->
+					</div>
+					<div id="prompt" class="consoleparts">
+						<form id="cmd">
+							<p>$ <input id="cmdin" autofocus type="text" autocomplete="off" size="38"/></p>
+						</form>
+					</div>
+				</div>
+				<div id="consoleoverlay"></div>
+			</div>
+		</div>
+
+		<!-- invisible nodes to copy: -->
+		<div>
+
+			<div id="start" class="noorder">
+				<br>
+				<h1>Welcome to my Portfolio-Website!</h1>
+				<br>
+				<p>
+					Feel free to learn some bits about me, my projects and play around.<br>
+					<br>
+					<br>
+					<br>
+				</p>
+			</div>
+
+			<div id="impressum" class="noorder">
+				<h3>pictorial sources:</h3>
+				<br>
+				<a href="https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg">The_Earth_seen_from_Apollo_17.jpg</a><br>
+				<a href="https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg">NASA-Apollo8-Dec24-Earthrise.jpg</a><br>
+				<a href="https://commons.wikimedia.org/wiki/File:ESO_-_Milky_Way.jpg">ESO_-_Milky_Way.jpg</a><br>
+				<a href="https://commons.wikimedia.org/wiki/File:VT05.jpg">VT05.jpg</a><br>
+				<br>
+				<p>All these files are licensed under public domain or the <a href="https://creativecommons.org/licenses/">Creative Commons Licence</a>.<br>
+					(See the individual file-links for details.)<br>
+					The modificated work is shared with the same attribution.
+				</p>
+				<br>
+				<br>
+				<hr>
+				<br>
+				<br>
+				<h3>Impressum:</h3>
+				<p>
+					<br>
+					Angaben gemäß § 5 TMG:<br>
+					<br>
+					Thomas Weyand<br>
+					Robert-Schuman-Str. 20<br>
+					51109 Köln<br>
+					<br>
+					Kontakt:<br>
+					Telefon: 022049641093<br>
+					E-Mail: web@kodifix.de<br>
+					<br>
+					Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br>
+					Thomas Weyand<br>
+					Robert-Schuman-Str. 20<br>
+					51109 Köln<br>
+					<br>
+					<br>
+					Haftungsausschluss:<br>
+					<br>
+					<br>
+					Haftung für Inhalte<br>
+					<br>
+					Die Inhalte auf diesen Seiten wurden mit großer Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Als Diensteanbieter ist man gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG iat man als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine derartige Haftung ist jedoch erst infolge der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Kenntnisnahme von entsprechenden Rechtsverletzungen werden diese Inhalte umgehend entfernt.<br>
+					<br>
+					<br>
+					Haftung für Links<br>
+					<br>
+					Diese Seiten enthalten Links zu Webseiten Dritter, auf dessen Inhalte kein Einfluss besteht. Daher kann für diese fremden Inhalte auch keine Gewähr übernommen werden. Für diese Inhalte ist allein der jeweilige Anbieter oder Betreiber dieser Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Erstellung dieser Links auf mögliche Rechtsverstöße überprüft und solche waren nicht erkennbar. Eine fortwährende inhaltliche Überprüfung der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden derartige Links umgehend entfernt.<br>
+					<br>
+				<hr>
+				<br>
+				<br>
+				Datenschutzerklärung<br>
+				<br>
+				Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist Thomas Weyand.<br>
+				<br>
+				<br>
+				Ihre Betroffenenrechte<br>
+				<br>
+				Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:<br>
+				<br>
+				Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung,<br>
+				Berichtigung unrichtiger personenbezogener Daten,<br>
+				Löschung Ihrer bei uns gespeicherten Daten,<br>
+				Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen,<br>
+				Widerspruch gegen die Verarbeitung Ihrer Daten bei uns und<br>
+				Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben.<br>
+				<br>
+				Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.<br>
+				<br>
+				Sie können sich jederzeit mit einer Beschwerde an die für Sie zuständige Aufsichtsbehörde wenden. Ihre zuständige Aufsichtsbehörde richtet sich nach dem Bundesland Ihres Wohnsitzes, Ihrer Arbeit oder der mutmaßlichen Verletzung. Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter: https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.<br>
+				Zwecke der Datenverarbeitung durch die verantwortliche Stelle und Dritte<br>
+				<br>
+				Wir verarbeiten Ihre personenbezogenen Daten nur zu den in dieser Datenschutzerklärung genannten Zwecken. Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den genannten Zwecken findet nicht statt. Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn:<br>
+				<br>
+				Sie Ihre ausdrückliche Einwilligung dazu erteilt haben,<br>
+				die Verarbeitung zur Abwicklung eines Vertrags mit Ihnen erforderlich ist,<br>
+				die Verarbeitung zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist,<br>
+				<br>
+				die Verarbeitung zur Wahrung berechtigter Interessen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer Daten haben.<br>
+				<br>
+				<br>
+				Löschung bzw. Sperrung der Daten<br>
+				<br>
+				Wir halten uns an die Grundsätze der Datenvermeidung und Datensparsamkeit. Wir speichern Ihre personenbezogenen Daten daher nur so lange, wie dies zur Erreichung der hier genannten Zwecke erforderlich ist oder wie es die vom Gesetzgeber vorgesehenen vielfältigen Speicherfristen vorsehen. Nach Fortfall des jeweiligen Zweckes bzw. Ablauf dieser Fristen werden die entsprechenden Daten routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.<br>
+				<br>
+				<br>
+				Erfassung allgemeiner Informationen beim Besuch unserer Website<br>
+				<br>
+				Wenn Sie auf unsere Website zugreifen, werden automatisch mittels eines Cookies Informationen allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers und ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen.<br>
+				<br>
+				Diese Informationen sind technisch notwendig, um von Ihnen angeforderte Inhalte von Webseiten korrekt auszuliefern und fallen bei Nutzung des Internets zwingend an. Sie werden insbesondere zu folgenden Zwecken verarbeitet:<br>
+				<br>
+				Sicherstellung eines problemlosen Verbindungsaufbaus der Website,<br>
+				Sicherstellung einer reibungslosen Nutzung unserer Website,<br>
+				Auswertung der Systemsicherheit und -stabilität sowie<br>
+				zu weiteren administrativen Zwecken.<br>
+				<br>
+				Die Verarbeitung Ihrer personenbezogenen Daten basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Empfänger der Daten sind nur die verantwortliche Stelle und ggf. Auftragsverarbeiter.<br>
+				<br>
+				Anonyme Informationen dieser Art werden von uns ggfs. statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu optimieren.<br>
+				<br>
+				<br>
+				Änderung unserer Datenschutzbestimmungen<br>
+				<br>
+				Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.<br>
+				<br>
+				<br>
+				Fragen an den Datenschutzbeauftragten<br>
+				<br>
+				Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation: Thomas Weyand<br>
+				<br>
+				Die Datenschutzerklärung wurde mit dem Datenschutzerklärungs-Generator der activeMind AG erstellt. (https://www.activemind.de/datenschutz/datenschutzhinweis-generator/)
+				</p>
+			</div>
+
+			<div id="help" class="orders">
+				<p>
+					<br>
+					Try the following commands and discover more:<br>
+				</p>
+				<table>
+					<colgroup>
+						<col width="120">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td><span id="_about" class="order">[about]</span></td>
+						<td>read about my person</td>
+					</tr>
+					<tr>
+						<td><span id="_projects" class="order">[projects]</span></td>
+						<td>read about my projects</td>
+					</tr>
+					<!--<tr>
+						<td><span onclick="append('language');">[language]</span></td>
+						<td>switch language between german and english</td>
+					</tr>
+					<tr>
+						<td><span onclick="append('asdf');">[...]</span></td>
+						<td>...</td>
+					</tr> -->
+					<tr>
+						<td><span id="_exit" class="order">[exit]</span></td>
+						<td>close this site</td>
+					</tr>
+				</table>
+				<br>
+			</div>
+
+			<div id="about" class="orders">
+				<p>
+					<br>
+					Hi!<br>
+					My Name is Thomas Weyand. I’m a student at the <a href="https://www.medienberufe.de/" class="links" target="_blank">[bm]</a> institute in cologne.<br>
+					I’ve been working with computers and media-devices for more than 20 years in several jobs and employments.<br>
+					By working intermediary between machines and humans, I have always tried to find the best solution for the machines, not to attract any anxiety by it’s user.<br>
+				</p>
+			</div>
+
+			<div id="projects" class="orders">
+				<p>
+					<br>
+					As I have not done any public programming projects yet, despite my sparse <a href="https://github.com/gonzo1138" class="links" target="_blank">[github]</a> repositories, that are mostly for educational purposes, this section will continuosly fill up with nice things. Previous projects were problem-specific solutions for clients, like scripts for automations like data-distribution and python-programs for data-processing.<br>
+					I have also done some <span id="_websites" class="order">[websites]</span> in the past, which are currently being reworked.<br>
+				</p>
+			</div>
+
+			<div id="websites" class="orders">
+				<br>
+				<table>
+					<colgroup>
+						<col width="120">
+						<col width="*">
+					</colgroup>
+					<tr>
+						<td><a href="http://www.radioweyand.de" class="links" target="_blank">[rw]</a></td>
+						<td>Radio Weyand-Website, build around 2008.</td>
+					</tr>
+				</table>
+				<br>
+			</div>
+
+			<div id="exit" class="orders">
+				<p>Thank you for visiting and come back some time for updates!<br><br></p>
+			</div>
+
+			<div id="error" class="orders">
+				<p>The command you entered was not found.<br></p>
+			</div>
+
+			<div id="welcome" class="orders">
+				<p>Welcome to my Portfolio-console!<br>
+					<br>
+					Try <span id="_help" class="order">[help]</span> for a list of commands.<br>
+					<br>
+				</p>
+			</div>
+
+			<div id="promptmessage" class="orders">
+			</div>
+		</div>
+
+		<!-- end of Console -->
+	</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  margin-block-start:0;
+  margin-block-end:0;
+  margin-inline-start:0;
+  margin-inline-end:0;
+}
+
+@font-face {
+	font-family:"Roboto-mono";
+	src: url("../src/RobotoMono-VariableFont_wght.ttf");
+ }
+
+/* positioning and format */
+
+#consoleposition{
+	width: 100vW;
+	height: 100vH;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+#consolegrafic{
+	position: fixed;
+	bottom: 100px;
+	width: 1000px;
+	height: 667px;
+	z-index: 10;
+	background-image: url("../pic/VT05.png");
+	background-repeat: no-repeat;
+}
+
+#consoleoverlay{
+	position: inherit;
+	width: 1000px;
+	height: 667px;
+	background-image: url("../pic/VT05_screen.png");
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+
+#consoleframe{
+	width: 333px;
+	height: 200px;
+	position: absolute;
+	top: 152px;
+	left: 333px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+/*
+#console{
+	font-family: Roboto-mono, monospace;
+	color: #009000;
+	font-size: 12px;
+	background: #ccc0;
+}
+
+#prompt{
+	font-family: Roboto-mono, monospace;
+	color: #009000;
+	font-size: 12px;
+	background:#ccc0;
+}
+*/
+.consoleparts{
+	width: 100%;
+	font-family: Roboto-mono, monospace;
+	color: #009000;
+	font-size: 12px;
+	background:#ccc0;
+}
+
+/* special elements */
+
+.orders{
+	display: none;
+}
+
+#console a, span{
+	cursor: pointer;
+	text-decoration: none;
+	color: #0c0;
+}
+#console a:visited, span:visited{
+	background: #ccc1;
+}
+#console a:focus, a:hover, a:active, span:focus, span:hover, span:active{
+	background: #ccc7;
+}
+
+#cmd input{
+	border: 0px;
+	background-color: #00000000;
+	font-family: Roboto-mono, monospace;
+	color: #009000;
+	/*font-size: medium;*/
+	border: 0px;
+	margin: 0px;
+	outline: none;
+}
+
+#console table{
+	width: 100%;
+	border: 0;
+}
